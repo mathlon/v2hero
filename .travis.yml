@@ -5,6 +5,6 @@ services:
   - docker
  
 before_install:
-  - docker build -t registry.heroku.com/mv2herous/web .
+  - docker build -t registry.heroku.com/mv2heroeu/web .
   - docker login -u mathlon02@gmail.com -p 55359d95-d6c6-46d1-b2de-43339823bcf6 registry.heroku.com
-  - docker push registry.heroku.com/mv2herous/web
+  - docker push registry.heroku.com/mv2heroeu/web
